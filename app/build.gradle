@@ -25,6 +25,10 @@ android {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
     }
+
+    viewBinding{
+        enabled true
+    }
 }
 
 dependencies {
@@ -41,5 +45,5 @@ dependencies {
     //retrofit
     implementation 'com.squareup.retrofit2:retrofit:2.9.0'
     //retrofit converter gson
-    implementation 'com.squareup.retrofit2.9.0:converter-gson:2'
+    implementation 'com.squareup.retrofit2:converter-gson:2.9.0'
 }
